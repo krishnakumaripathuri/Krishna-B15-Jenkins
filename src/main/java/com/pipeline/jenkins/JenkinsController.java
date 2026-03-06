@@ -9,6 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class JenkinsController {
     @GetMapping("welcome")
     public String Welcome(){
+
+        return "welcome to jenkins user Krishna";
+    }
+    @GetMapping("welcome2")
+    public String Welcome2(){
+
         return "welcome to jenkins user Krishna";
     }
 }
