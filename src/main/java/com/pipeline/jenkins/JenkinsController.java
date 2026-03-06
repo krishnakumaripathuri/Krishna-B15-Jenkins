@@ -17,4 +17,8 @@ public class JenkinsController {
 
         return "welcome to jenkins user Krishna";
     }
+    @GetMapping("hello")
+    public String Hello(){
+        return "Hello! Krishna";
+    }
 }
